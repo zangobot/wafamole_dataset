@@ -6,7 +6,7 @@ If you use this dataset, please cite us:
 @article{demetrio2020waf,
   title={WAF-A-MoLE: Evading Web Application Firewalls through Adversarial Machine Learning},
   author={Demetrio, Luca and Valenza, Andrea and Costa, Gabriele and Lagorio, Giovanni},
-  journal={arXiv preprint arXiv:2001.01952},
+  journal={Proceedings of the 35th Annual ACM Symposium on Applied Computing},
   year={2020}
 }
 
