@@ -19,6 +19,12 @@ If you use this dataset, please cite us:
 
 Since GitHub does not allow files larger than 25MB, we divided them in chunks.
 In our paper, we used the full `attacks.sql` and `sane.sql` files.
+
+To rebuild the whole dataset, you can use any command that concatenates files by line.
+```bash
+:~$ cat attacks.sql.* > attacks.sql
+:~$ cat sane.sql.* > sane.sql
+```
 You can use each chunk by itself, but this feature is untested.
 
 **WARNING**: each payload might contain `\n`, *do not* split this file by `\n` or you will get incomplete queries. The correct way of getting single samples is to use `sqlparse`.
