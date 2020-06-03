@@ -27,7 +27,7 @@ You can use each chunk by itself, but this feature is untested.
 >>> import sqlparse
 
 >>> # Split a string containing two SQL statements:
->>> attacks = open('attacks.sql', 'r')
+>>> attacks = open('attacks.sql', 'r').read()
 >>> statements = sqlparse.split(attacks)
 >>> statements
 ['select * from foo;', 'select * from bar;', ... ]
